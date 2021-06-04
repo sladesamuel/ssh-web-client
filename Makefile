@@ -2,8 +2,8 @@ SHELL := /bin/bash
 
 .PHONY: init
 init:
-	echo "TODO - Project initialization"
+	scripts/init.sh
 
 .PHONY: start
 start:
-	npm run build && npm start
+	scripts/build-and-run.sh
