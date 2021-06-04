@@ -5,13 +5,13 @@ A web-based application for browsing and downloading files located on a server v
 ## Prerequisites
 
 To run:
-- [Make](...)
-- [Docker](...)
+- [Make](https://www.gnu.org/software/make/)
+- [Docker](https://docs.docker.com/get-docker/)
 
 To develop:
-- [Node Version Manager](...)
-- [Node](...)
-- [Node Package Manager](...)
+- [Node Version Manager](https://github.com/nvm-sh/nvm)
+- Node.js - *installed via NVM*
+- Node Package Manager - *installed via NVM*
 
 ## Launch the project
 
