@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SSH Web Client
 
-## Getting Started
+A web-based application for browsing and downloading files located on a server via SSH. 
 
-First, run the development server:
+## Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
+To run:
+- [Make](...)
+- [Docker](...)
+
+To develop:
+- [Node Version Manager](...)
+- [Node](...)
+- [Node Package Manager](...)
+
+## Launch the project
+
+Before you run the project for the first time, you will need to initialise the server settings. Run the following command from the terminal:
+
+```shell
+$ make init 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once initialised, run the following command from the terminal to build and run the project:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```shell
+$ make start
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Development
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Before you start developing the project, you will need to make sure you are using the correct version of Node and the Node Package Manager (npm). You can do this easily using the Node Version Manager (nvm).
 
-## Learn More
+```shell
+$ nvm install
+$ nvm use
+```
 
-To learn more about Next.js, take a look at the following resources:
+You can then launch the project using the Next.js development server, which enables hot reloading and file watching so that you can make changes to the project and it will be automatically reloaded. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```shell
+$ npm run dev 
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+This project has been built and maintained by Samuel Slade. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you wish to contribute to this project, feel free to submit a pull request for review. I am happy for anyone to contribute pending a review. 
